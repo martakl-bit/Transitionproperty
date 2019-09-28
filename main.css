@@ -1,0 +1,32 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #bada55;
+    transition-property: width, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; /*causes positive emotional response. to learn more--> matthewlein.com/tools/ceaser */
+}
+.box:hover {
+    width: 150px;
+    background-color: #e84610;
+
+}
+
+/*a {
+  color: #e84610;
+  font-size: 16px;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 1s;
+  -moz-transition-timing-function: ease-in-out;*/
+
+  /* given solution*/
+  /*transition: color 1s ease-in-out;
+}*/
+
+/*given solution didn't give the same result*/
+
+/*a:hover {
+    background-color: #000;
+
+}*/
